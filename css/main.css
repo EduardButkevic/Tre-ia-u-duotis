@@ -53,8 +53,9 @@ main {
     font-weight: bold;
     line-height: 17px;
     height: 16px;
-    
+
 }
+
 .topline2 {
     font-size: 12px;
     font-weight: 520;
@@ -66,6 +67,7 @@ main {
     display: inline-block;
     margin-top: 5px;
 }
+
 .lastname {
     display: inline-block;
     margin-left: 15px;
@@ -77,14 +79,17 @@ main {
     background-color: transparent;
     outline: 0;
     border-width: 0 0 1.5px;
-    
+
 }
+
 #nameinfo {
     margin-top: 0px;
 }
+
 #mail {
     margin-top: 20px;
 }
+
 .mailinput {
     width: 420px;
     background-color: transparent;
@@ -93,33 +98,39 @@ main {
     font-size: 8px;
     margin-top: 5px;
 }
+
 #tickets {
     margin-top: 26px;
 }
-#ticketslist  {
+
+#ticketslist {
     display: inline-block;
     width: 440px;
     margin-top: 2px;
-   
+
 }
+
 #prices {
     display: inline-block;
 }
+
 .radiobutton {
     line-height: 10px;
     height: 20px;
-    
+
 }
 
 
 .price {
     font-weight: bold;
     text-align: right;
-    
+
 }
+
 .radio {
     margin-top: 5px;
 }
+
 #how {
     margin-top: 33px;
 }
@@ -128,58 +139,75 @@ main {
     width: 138px;
     height: 80px;
     display: inline-block;
-    
+
 }
+
 .mid {
     width: 137px;
-    height: 80px; 
+    height: 80px;
     display: inline-block;
     margin-left: 10px;
 }
+
 .right {
     width: 137px;
     height: 80px;
     display: inline-block;
     margin-left: 10px;
 }
+
 .ch {
     margin-top: 5px;
-  
+
 }
+
 .num {
     width: 110px;
     display: inline-block;
     font-size: 12px;
 }
+
 .border {
     margin-top: 2px;
     border-style: solid;
     border-width: 1px;
-    
+
 }
+
 .radio2 {
     margin-top: 3px;
     margin-left: 2px;
 }
+
 .Friend {
     margin-top: 2px;
 }
+
 footer {
     float: left;
     margin-top: 80px;
     margin-left: 70px;
-    
+
 }
+
 .button {
     float: left;
     margin-top: 20px;
     margin-left: 245px;
-    background-color:rgb(199, 40, 61) ;
+    background-color: rgb(199, 40, 61);
     color: white;
     font-weight: bold;
     width: 100px;
     height: 35px;
     border-radius: 50px;
     border-width: 0;
+}
 
+.button:hover {
+    background-color: rgb(83, 6, 16);
+    color: white;
+}
+
+.button:active {
+    background-color: rgb(83, 6, 16);
 }

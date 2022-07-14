@@ -1,6 +1,6 @@
 main {
     width: 600px;
-    height: 1000px;
+    height: 800px;
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,8 +51,8 @@ main {
 .topline {
     font-size: 14px;
     font-weight: bold;
-    line-height: 10px;
-    height: 15px;
+    line-height: 17px;
+    height: 16px;
     
 }
 .topline2 {
@@ -92,7 +92,7 @@ main {
     border-width: 0 0 1.5px;
 }
 #tickets {
-    margin-top: 28px;
+    margin-top: 22px;
 }
 #ticketslist  {
     display: inline-block;
@@ -108,11 +108,7 @@ main {
     height: 20px;
     
 }
-/* .prices {
-    margin-left: 258px;
-    font-weight: bold;
-    text-align: right;
-} */
+
 
 .price {
     font-weight: bold;
@@ -123,5 +119,5 @@ main {
     margin-top: 8px;
 }
 #how {
-    margin-top: 48px;
+    margin-top: 15px;
 }

@@ -201,6 +201,10 @@ footer {
     height: 35px;
     border-radius: 50px;
     border-width: 0;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+            cursor: pointer;
+            outline: none;
+            transition: 0.2s all;
 }
 
 .button:hover {
@@ -210,4 +214,6 @@ footer {
 
 .button:active {
     background-color: rgb(83, 6, 16);
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24)
 }
